@@ -24,7 +24,7 @@ config :logger, :console,
   metadata: [:request_id]
 
 config :exnowflake,
-  worker_id: {:system, 0-1022}, # Must be an integer between 0-1023
+  worker_id: {:system, 1022}, # Must be an integer between 0-1023
   epoch: 1574787672858
 
 # Use Jason for JSON parsing in Phoenix
